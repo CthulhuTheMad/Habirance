@@ -1,7 +1,9 @@
 {
   "block.habirance.alabaster_block": "Alabaster",
+  "block.habirance.alabaster_stairs": "Alabaster Stairs",
+  "block.habirance.alabaster_slab": "Alabaster Slab",
   "block.habirance.polished_alabaster_block": "Polished Alabaster",
-  "block.habirance.redcrock_block": "Redrock",
+  "block.habirance.redrock_block": "Redrock",
   "block.habirance.redrock_bricks": "Redrock Bricks",
   "block.habirance.chiseled_redrock_block": "Chiseled Redrock",
   "block.habirance.cracked_redrock_bricks": "Cracked Redrock Bricks",

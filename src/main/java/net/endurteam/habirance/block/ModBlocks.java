@@ -7,6 +7,8 @@ import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.SlabBlock;
+import net.minecraft.world.level.block.StairBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.material.MaterialColor;
@@ -23,6 +25,10 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> ALABASTER_BLOCK = registerBlock("alabaster_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.QUARTZ).requiresCorrectToolForDrops().strength(1.5F, 6.0F)), ModCreativeModeTab.HABIRANCE_TAB);
+    public static final RegistryObject<Block> ALABASTER_STAIRS = registerBlock("alabaster_stairs",
+            () -> new StairBlock(() -> ModBlocks.ALABASTER_BLOCK.get().defaultBlockState(), BlockBehaviour.Properties.of(Material.STONE, MaterialColor.QUARTZ).requiresCorrectToolForDrops().strength(1.5F, 6.0F)), ModCreativeModeTab.HABIRANCE_TAB);
+    public static final RegistryObject<Block> ALABASTER_SLAB = registerBlock("alabaster_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.QUARTZ).requiresCorrectToolForDrops().strength(1.5F, 6.0F)), ModCreativeModeTab.HABIRANCE_TAB);
     public static final RegistryObject<Block> POLISHED_ALABASTER_BLOCK = registerBlock("polished_alabaster_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.QUARTZ).requiresCorrectToolForDrops().strength(1.5F, 6.0F)), ModCreativeModeTab.HABIRANCE_TAB);
     public static final RegistryObject<Block> REDROCK_BLOCK = registerBlock("redrock_block",
