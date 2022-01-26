@@ -3,11 +3,19 @@
   "block.habirance.alabaster_stairs": "Alabaster Stairs",
   "block.habirance.alabaster_slab": "Alabaster Slab",
   "block.habirance.polished_alabaster_block": "Polished Alabaster",
+  "block.habirance.polished_alabaster_stairs": "Polished Alabaster Stairs",
+  "block.habirance.polished_alabaster_slab": "Polished Alabaster Slab",
   "block.habirance.redrock_block": "Redrock",
+  "block.habirance.redrock_stairs": "Redrock Stairs",
+  "block.habirance.redrock_slab": "Redrock Slab",
   "block.habirance.redrock_bricks": "Redrock Bricks",
+  "block.habirance.redrock_brick_stairs": "Redrock Brick Stairs",
+  "block.habirance.redrock_brick_slab": "Redrock Brick Slab",
   "block.habirance.chiseled_redrock_block": "Chiseled Redrock",
   "block.habirance.cracked_redrock_bricks": "Cracked Redrock Bricks",
   "block.habirance.polished_redrock_block": "Polished Redrock",
+  "block.habirance.polished_redrock_stairs": "Polished Redrock Stairs",
+  "block.habirance.polished_redrock_slab": "Polished Redrock Slab",
 
   "itemGroup.habirancetab": "Habirance"
 }

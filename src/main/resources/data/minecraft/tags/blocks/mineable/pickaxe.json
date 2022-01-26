@@ -5,9 +5,17 @@
     "habirance:alabaster_stairs",
     "habirance:alabaster_slab",
     "habirance:polished_alabaster_block",
+    "habirance:polished_alabaster_stairs",
+    "habirance:polished_alabaster_slab",
     "habirance:redrock_block",
+    "habirance:redrock_stairs",
+    "habirance:redrock_slab",
     "habirance:redrock_bricks",
+    "habirance:redrock_brick_stairs",
+    "habirance:redrock_brick_slab",
     "habirance:polished_redrock_block",
+    "habirance:polished_redrock_stairs",
+    "habirance:polished_redrock_slab",
     "habirance:chiseled_redrock_block",
     "habirance:cracked_redrock_bricks"
   ]

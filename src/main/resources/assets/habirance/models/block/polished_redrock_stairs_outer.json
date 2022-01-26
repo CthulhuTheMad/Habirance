@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "habirance:block/polished_redrock_block",
+    "top": "habirance:block/polished_redrock_block",
+    "side": "habirance:block/polished_redrock_block"
+  }
+}
