@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "habirance:polished_alabastor_block"
+          "name": "habirance:alabaster_wall"
         }
       ],
       "conditions": [

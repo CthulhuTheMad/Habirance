@@ -17,6 +17,7 @@
     "habirance:polished_redrock_stairs",
     "habirance:polished_redrock_slab",
     "habirance:chiseled_redrock_block",
-    "habirance:cracked_redrock_bricks"
+    "habirance:cracked_redrock_bricks",
+    "#minecraft:walls"
   ]
 }

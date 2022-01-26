@@ -5,7 +5,7 @@
       "model": "habirance:block/redrock_brick_slab"
     },
     "type=double": {
-      "model": "habirance:block/redrock_brick_block"
+      "model": "habirance:block/redrock_bricks"
     },
     "type=top": {
       "model": "habirance:block/redrock_brick_slab_top"
