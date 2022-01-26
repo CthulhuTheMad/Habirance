@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "habirance:alabaster_block",
+    "habirance:polished_alabaster_block",
+    "habirance:redrock_block",
+    "habirance:redrock_bricks",
+    "habirance:polished_redrock_block",
+    "habirance:chiseled_redrock_block",
+    "habirance:cracked_redrock_bricks"
+  ]
+}
