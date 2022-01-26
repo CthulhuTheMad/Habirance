@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "habirance:redrock_block"
+    }
+  },
+  "result": {
+    "item": "habirance:redrock_stairs",
+    "count": 4
+  }
+}
