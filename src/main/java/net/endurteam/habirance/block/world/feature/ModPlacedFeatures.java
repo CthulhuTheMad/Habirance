@@ -1,4 +1,4 @@
-package net.endurteam.habirance.world.feature;
+package net.endurteam.habirance.block.world.feature;
 
 
 import net.minecraft.data.worldgen.placement.PlacementUtils;

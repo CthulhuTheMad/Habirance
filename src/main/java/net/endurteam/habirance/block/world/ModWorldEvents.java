@@ -1,7 +1,7 @@
-package net.endurteam.habirance.world;
+package net.endurteam.habirance.block.world;
 
 import net.endurteam.habirance.Habirance;
-import net.endurteam.habirance.world.gen.ModOreGeneration;
+import net.endurteam.habirance.block.world.gen.ModOreGeneration;
 import net.minecraftforge.event.world.BiomeLoadingEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
