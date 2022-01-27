@@ -1,6 +1,6 @@
-package net.endurteam.habirance.block.world.gen;
+package net.endurteam.habirance.world.gen;
 
-import net.endurteam.habirance.block.world.feature.ModPlacedFeatures;
+import net.endurteam.habirance.world.feature.ModPlacedFeatures;
 import net.minecraft.world.level.levelgen.GenerationStep;
 import net.minecraft.world.level.levelgen.placement.PlacedFeature;
 import net.minecraftforge.event.world.BiomeLoadingEvent;
