@@ -14,9 +14,13 @@ public class ModConfiguredFeature {
             OreConfiguration.target(OreFeatures.NATURAL_STONE, ModBlocks.ALABASTER_BLOCK.get().defaultBlockState()));
     public static final List<OreConfiguration.TargetBlockState> OVERWORLD_REDROCK = List.of(
             OreConfiguration.target(OreFeatures.NATURAL_STONE, ModBlocks.REDROCK_BLOCK.get().defaultBlockState()));
+    public static final List<OreConfiguration.TargetBlockState> OVERWORLD_LIMESTONE = List.of(
+            OreConfiguration.target(OreFeatures.NATURAL_STONE, ModBlocks.LIMESTONE_BLOCK.get().defaultBlockState()));
 
     public static final ConfiguredFeature<?, ?> ORE_ALABASTER = FeatureUtils.register("ore_alabaster",
             Feature.ORE.configured(new OreConfiguration(OVERWORLD_ALABASTER, 64)));
     public static final ConfiguredFeature<?, ?> ORE_REDROCK = FeatureUtils.register("ore_redrock",
             Feature.ORE.configured(new OreConfiguration(OVERWORLD_REDROCK, 64)));
+    public static final ConfiguredFeature<?, ?> ORE_LIMESTONE = FeatureUtils.register("ore_limestone",
+            Feature.ORE.configured(new OreConfiguration(OVERWORLD_LIMESTONE, 64)));
 }
