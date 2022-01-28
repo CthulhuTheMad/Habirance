@@ -1,4 +1,16 @@
 Changelog:
+--Habirance Ver-0.0.1-Alpha Hotfix-1--
+
+**FIXES**
+-Missing loot tables for limestone have been added
+-Fixed a model error for limestone_block_item
+
+**CHANGES**
+-Alabaster now spawns starting at Y level -15 with less veins per chunk
+-Redrock now spawns less frequently in a chunk
+
+
+
 
 --Habirance Ver-0.0.1-Alpha--
 

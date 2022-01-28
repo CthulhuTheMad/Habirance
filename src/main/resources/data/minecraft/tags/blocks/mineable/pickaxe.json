@@ -19,7 +19,11 @@
     "habirance:chiseled_redrock_block",
     "habirance:cracked_redrock_bricks",
     "habirance:limestone_block",
+    "habirance:limestone_stairs",
+    "habirance:limestone_slab",
     "habirance:polished_limestone_block",
+    "habirance:polished_limestone_stairs",
+    "habirance:polished_limestone_slab",
     "#minecraft:walls"
   ]
 }
