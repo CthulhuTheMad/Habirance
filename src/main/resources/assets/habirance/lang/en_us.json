@@ -26,6 +26,9 @@
   "block.habirance.polished_limestone_block": "Polished Limestone",
   "block.habirance.polished_limestone_stairs": "Polished Limestone Stairs",
   "block.habirance.polished_limestone_slab": "Polished Limestone Slab",
+  "block.habirance.tuff_iron_ore": "Tuff Iron Ore",
+  "block.habirance.granite_copper_ore": "Granite Copper Ore",
+  "block.habirance.redrock_redstone_ore": "Redrock Redstone Ore",
 
   "itemGroup.habirancetab": "Habirance"
 }

@@ -1,6 +1,7 @@
 package net.endurteam.habirance.block;
 
 import net.endurteam.habirance.Habirance;
+import net.endurteam.habirance.block.custom.RedrockRedstoneOreBlock;
 import net.endurteam.habirance.item.ModCreativeModeTab;
 import net.endurteam.habirance.item.ModItems;
 import net.minecraft.world.item.BlockItem;
@@ -8,6 +9,8 @@ import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.block.state.properties.BlockStateProperties;
 import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.material.MaterialColor;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -16,6 +19,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
 import java.util.function.Supplier;
+import java.util.function.ToIntFunction;
 
 public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS =
@@ -75,6 +79,19 @@ public class ModBlocks {
             () -> new StairBlock(() -> ModBlocks.POLISHED_LIMESTONE_BLOCK.get().defaultBlockState(), BlockBehaviour.Properties.of(Material.STONE, MaterialColor.TERRACOTTA_WHITE).requiresCorrectToolForDrops().strength(1.5F, 6.0F).sound(SoundType.CALCITE)), ModCreativeModeTab.HABIRANCE_TAB);
     public static final RegistryObject<Block> POLISHED_LIMESTONE_SLAB = registerBlock("polished_limestone_slab",
             () -> new SlabBlock(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.TERRACOTTA_WHITE).requiresCorrectToolForDrops().strength(1.5F, 6.0F).sound(SoundType.CALCITE)), ModCreativeModeTab.HABIRANCE_TAB);
+    public static final RegistryObject<Block> TUFF_IRON_ORE = registerBlock("tuff_iron_ore",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.TERRACOTTA_GRAY).sound(SoundType.TUFF).requiresCorrectToolForDrops().strength(1.5F, 6.0F)), ModCreativeModeTab.HABIRANCE_TAB);
+    public static final RegistryObject<Block> GRANITE_COPPER_ORE = registerBlock("granite_copper_ore",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.DIRT).requiresCorrectToolForDrops().strength(1.5F, 6.0F)), ModCreativeModeTab.HABIRANCE_TAB);
+    public static final RegistryObject<Block> REDROCK_REDSTONE_ORE = registerBlock("redrock_redstone_ore",
+            () -> new RedrockRedstoneOreBlock(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.DIRT).requiresCorrectToolForDrops().randomTicks().lightLevel(litBlockEmission(9)).strength(3.0F, 6.0F)), ModCreativeModeTab.HABIRANCE_TAB);
+
+
+    private static ToIntFunction<BlockState> litBlockEmission(int pLightValue) {
+        return (p_50763_) -> {
+            return p_50763_.getValue(BlockStateProperties.LIT) ? pLightValue : 0;
+        };
+    }
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

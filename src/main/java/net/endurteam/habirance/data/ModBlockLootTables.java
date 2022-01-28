@@ -2,6 +2,7 @@ package net.endurteam.habirance.data;
 
 import net.endurteam.habirance.block.ModBlocks;
 import net.minecraft.data.loot.BlockLoot;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.registries.RegistryObject;
@@ -30,6 +31,12 @@ public class ModBlockLootTables extends BlockLoot {
         this.add(ModBlocks.REDROCK_BRICK_SLAB.get(), (block) -> {
             return createSlabItemTable(ModBlocks.REDROCK_BRICK_SLAB.get());
         });
+
+        this.add(ModBlocks.TUFF_IRON_ORE.get(), (block) -> {
+            return createOreDrop(ModBlocks.TUFF_IRON_ORE.get(), Items.RAW_IRON);
+        });
+        this.add(ModBlocks.REDROCK_REDSTONE_ORE.get(), BlockLoot::createRedstoneOreDrops);
+        this.add(ModBlocks.GRANITE_COPPER_ORE.get(), BlockLoot::createCopperOreDrops);
 
         this.dropSelf(ModBlocks.ALABASTER_BLOCK.get());
         this.dropSelf(ModBlocks.ALABASTER_STAIRS.get());

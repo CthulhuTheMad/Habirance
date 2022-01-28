@@ -24,6 +24,9 @@
     "habirance:polished_limestone_block",
     "habirance:polished_limestone_stairs",
     "habirance:polished_limestone_slab",
+    "habirance:tuff_iron_ore",
+    "habirance:granite_copper_ore",
+    "habirance:redrock_redstone_ore",
     "#minecraft:walls"
   ]
 }

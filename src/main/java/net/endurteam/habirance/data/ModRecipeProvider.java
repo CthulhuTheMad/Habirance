@@ -1,14 +1,18 @@
 package net.endurteam.habirance.data;
 
+import com.google.common.collect.ImmutableList;
 import net.endurteam.habirance.block.ModBlocks;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.data.recipes.*;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.crafting.RecipeSerializer;
+import net.minecraft.world.item.crafting.SimpleCookingSerializer;
 import net.minecraft.world.level.ItemLike;
 import net.minecraftforge.common.crafting.conditions.IConditionBuilder;
 
+import java.util.List;
 import java.util.function.Consumer;
 
 
@@ -16,6 +20,8 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
     public ModRecipeProvider(DataGenerator pGenerator) {
         super(pGenerator);
     }
+
+    private static final ImmutableList<ItemLike> IRON_SMELTABLES = ImmutableList.of(Items.IRON_ORE, Items.DEEPSLATE_IRON_ORE, Items.RAW_IRON, ModBlocks.TUFF_IRON_ORE.get());
 
     @Override
     protected void buildCraftingRecipes(Consumer<FinishedRecipe> pFinishedRecipeConsumer) {
@@ -77,6 +83,12 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.POLISHED_LIMESTONE_BLOCK.get()), ModBlocks.POLISHED_LIMESTONE_STAIRS.get()).unlockedBy("has_polished_limestone_block", has(ModBlocks.POLISHED_LIMESTONE_BLOCK.get())).save(pFinishedRecipeConsumer, new ResourceLocation("habirance","polished_limestone_stairs_from_polished_limestone_stonecutting"));
         SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.LIMESTONE_BLOCK.get()), ModBlocks.POLISHED_LIMESTONE_STAIRS.get()).unlockedBy("has_limestone_block", has(ModBlocks.LIMESTONE_BLOCK.get())).save(pFinishedRecipeConsumer, new ResourceLocation("habirance","polished_limestone_stairs_from_limestone_stonecutting"));
 
+        SimpleCookingRecipeBuilder.smelting(Ingredient.of(ModBlocks.TUFF_IRON_ORE.get()), Items.IRON_INGOT, 0.7F, 200).unlockedBy("has_tuff_iron_ore", has(ModBlocks.TUFF_IRON_ORE.get())).save(pFinishedRecipeConsumer, new ResourceLocation("habirance", "iron_ingot_from_tuff_iron_ore_smelting"));
+        SimpleCookingRecipeBuilder.smelting(Ingredient.of(ModBlocks.GRANITE_COPPER_ORE.get()), Items.COPPER_INGOT, 0.7F, 200).unlockedBy("has_granite_copper_ore", has(ModBlocks.GRANITE_COPPER_ORE.get())).save(pFinishedRecipeConsumer, new ResourceLocation("habirance", "copper_ingot_from_granite_copper_ore_smelting"));
+        SimpleCookingRecipeBuilder.smelting(Ingredient.of(ModBlocks.REDROCK_REDSTONE_ORE.get()), Items.REDSTONE, 0.7F, 200).unlockedBy("has_redrock_redstone_ore", has(ModBlocks.REDROCK_REDSTONE_ORE.get())).save(pFinishedRecipeConsumer, new ResourceLocation("habirance", "redstone_from_redrock_redstone_ore_smelting"));
+        SimpleCookingRecipeBuilder.blasting(Ingredient.of(ModBlocks.TUFF_IRON_ORE.get()), Items.IRON_INGOT, 0.7F, 100).unlockedBy("has_tuff_iron_ore", has(ModBlocks.TUFF_IRON_ORE.get())).save(pFinishedRecipeConsumer, new ResourceLocation("habirance", "iron_ingot_from_tuff_iron_ore_blasting"));
+        SimpleCookingRecipeBuilder.blasting(Ingredient.of(ModBlocks.GRANITE_COPPER_ORE.get()), Items.COPPER_INGOT, 0.7F, 100).unlockedBy("has_granite_copper_ore", has(ModBlocks.GRANITE_COPPER_ORE.get())).save(pFinishedRecipeConsumer, new ResourceLocation("habirance", "copper_ingot_from_granite_copper_ore_blasting"));
+        SimpleCookingRecipeBuilder.blasting(Ingredient.of(ModBlocks.REDROCK_REDSTONE_ORE.get()), Items.REDSTONE, 0.7F, 100).unlockedBy("has_redrock_redstone_ore", has(ModBlocks.REDROCK_REDSTONE_ORE.get())).save(pFinishedRecipeConsumer, new ResourceLocation("habirance", "redstone_from_redrock_redstone_ore_blasting"));
     }
 
     public static ShapedRecipeBuilder chiseledBuilder(ItemLike pChiseledResult, Ingredient pMaterial) {
