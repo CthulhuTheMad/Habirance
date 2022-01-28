@@ -19,6 +19,13 @@
   "block.habirance.polished_redrock_block": "Polished Redrock",
   "block.habirance.polished_redrock_stairs": "Polished Redrock Stairs",
   "block.habirance.polished_redrock_slab": "Polished Redrock Slab",
+  "block.habirance.limestone_block": "Limestone",
+  "block.habirance.limestone_wall": "Limestone Wall",
+  "block.habirance.limestone_stairs": "Limestone Stairs",
+  "block.habirance.limestone_slab": "Limestone Slab",
+  "block.habirance.polished_limestone_block": "Polished Limestone",
+  "block.habirance.polished_limestone_stairs": "Polished Limestone Stairs",
+  "block.habirance.polished_limestone_slab": "Polished Limestone Slab",
 
   "itemGroup.habirancetab": "Habirance"
 }

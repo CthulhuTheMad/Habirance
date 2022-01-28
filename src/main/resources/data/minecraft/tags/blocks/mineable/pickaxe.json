@@ -18,6 +18,8 @@
     "habirance:polished_redrock_slab",
     "habirance:chiseled_redrock_block",
     "habirance:cracked_redrock_bricks",
+    "habirance:limestone_block",
+    "habirance:polished_limestone_block",
     "#minecraft:walls"
   ]
 }
