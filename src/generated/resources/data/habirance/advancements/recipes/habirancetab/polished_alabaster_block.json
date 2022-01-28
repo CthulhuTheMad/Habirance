@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "habirance:polished_alabaster_block"
+    ]
+  },
+  "criteria": {
+    "has_alabaster_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "habirance:alabaster_block"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "habirance:polished_alabaster_block"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_alabaster_block",
+      "has_the_recipe"
+    ]
+  ]
+}

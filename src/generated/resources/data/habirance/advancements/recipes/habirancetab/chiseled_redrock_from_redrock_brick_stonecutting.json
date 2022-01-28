@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "habirance:chiseled_redrock_from_redrock_brick_stonecutting"
+    ]
+  },
+  "criteria": {
+    "has_redrock_bricks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "habirance:redrock_bricks"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "habirance:chiseled_redrock_from_redrock_brick_stonecutting"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_redrock_bricks",
+      "has_the_recipe"
+    ]
+  ]
+}

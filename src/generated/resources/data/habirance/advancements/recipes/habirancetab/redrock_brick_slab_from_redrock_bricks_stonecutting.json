@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "habirance:redrock_brick_slab_from_redrock_bricks_stonecutting"
+    ]
+  },
+  "criteria": {
+    "has_redrock_bricks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "habirance:redrock_bricks"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "habirance:redrock_brick_slab_from_redrock_bricks_stonecutting"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_redrock_bricks",
+      "has_the_recipe"
+    ]
+  ]
+}

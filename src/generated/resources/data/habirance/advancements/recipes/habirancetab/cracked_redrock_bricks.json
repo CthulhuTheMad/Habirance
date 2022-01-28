@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "habirance:cracked_redrock_bricks"
+    ]
+  },
+  "criteria": {
+    "has_redrock_bricks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "habirance:redrock_bricks"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "habirance:cracked_redrock_bricks"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_redrock_bricks",
+      "has_the_recipe"
+    ]
+  ]
+}
