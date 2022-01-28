@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "habirance:limestone_block"
+    }
+  },
+  "result": {
+    "item": "habirance:limestone_stairs",
+    "count": 4
+  }
+}
