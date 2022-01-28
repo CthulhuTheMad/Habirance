@@ -1,0 +1,37 @@
+Changelog:
+
+--Habirance Ver-0.0.1-Alpha--
+
+**NEW FEATURES**
+-Added Alabaster
+-Added Alabaster Stairs
+-Added Alabaster Slab
+-Added Alabaster Wall
+-Added Chiseled Redrock
+-Added Cracked Redrock Bricks
+-Added Limestone
+-Added Limestone Stairs
+-Added Limestone Slab
+-Added Polished Alabaster
+-Added Polished Alabaster Stairs
+-Added Polished Alabaster Slab
+-Added Polished Limestone
+-Added Polished Limestone Stairs
+-Added Polished Limestone Slab
+-Added Polished Limestone Wall
+-Added Polished Redrock
+-Added Polished Redrock Stairs
+-Added Polished Redrock Slab
+-Added Redrock
+-Added Redrock Stairs
+-Added Redrock Slab
+-Added Redrock Wall
+-Added Redrock Bricks
+-Added Redrock Brick Stairs
+-Added Redrock Brick Slab
+-Added Redrock Brick Wall
+
+
+**BACKEND**
+-Data generation for recipes
+-World generation of Alabaster, Redrock and Limestone.
