@@ -1,5 +1,13 @@
 Changelog:
---Habirance Ver-0.0.1-Alpha Hotfix-1--
+
+*Habirance Ver-0.0.2-Alpha*
+
+**CHANGES**
+-Limestone now only generates in River biomes
+-Redrock now has a chance to have Redstone ore spawn alongside it
+
+
+*Habirance Ver-0.0.1-Alpha Hotfix-1*
 
 **FIXES**
 -Missing loot tables for limestone have been added
@@ -12,7 +20,7 @@ Changelog:
 
 
 
---Habirance Ver-0.0.1-Alpha--
+*Habirance Ver-0.0.1-Alpha*
 
 **NEW FEATURES**
 -Added Alabaster

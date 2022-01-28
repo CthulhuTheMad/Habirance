@@ -16,7 +16,6 @@ public class ModOreGeneration {
         base.add(() -> ModPlacedFeatures.ORE_ALABASTER_PLACED);
         base.add(() -> ModPlacedFeatures.ORE_REDROCK_LOWER_PLACED);
         base.add(() -> ModPlacedFeatures.ORE_REDROCK_UPPER_PLACED);
-        base.add(() -> ModPlacedFeatures.ORE_LIMESTONE_LOWER_PLACED);
-        base.add(() -> ModPlacedFeatures.ORE_LIMESTONE_UPPER_PLACED);
+        base.add(() -> ModPlacedFeatures.ORE_REDSTONE_REDROCK);
     }
 }
