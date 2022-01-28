@@ -15,9 +15,15 @@ import java.util.List;
 
 public class ModConfiguredFeature {
     public static final RuleTest REDROCK = new BlockMatchTest(ModBlocks.REDROCK_BLOCK.get());
+    public static final RuleTest GRANITE = new BlockMatchTest(Blocks.GRANITE);
+    public static final RuleTest TUFF = new BlockMatchTest(Blocks.TUFF);
 
+    public static final List<OreConfiguration.TargetBlockState> TUFF_REPLACEABLES = List.of(
+            OreConfiguration.target(ModConfiguredFeature.TUFF, ModBlocks.TUFF_IRON_ORE.get().defaultBlockState()));
+    public static final List<OreConfiguration.TargetBlockState> GRANITE_REPLACEABLES = List.of(
+            OreConfiguration.target(ModConfiguredFeature.GRANITE, ModBlocks.GRANITE_COPPER_ORE.get().defaultBlockState()));
     public static final List<OreConfiguration.TargetBlockState> REDROCK_REPLACEABLES = List.of(
-            OreConfiguration.target(ModConfiguredFeature.REDROCK, Blocks.REDSTONE_ORE.defaultBlockState()));
+            OreConfiguration.target(ModConfiguredFeature.REDROCK, ModBlocks.REDROCK_REDSTONE_ORE.get().defaultBlockState()));
     public static final List<OreConfiguration.TargetBlockState> OVERWORLD_ALABASTER = List.of(
             OreConfiguration.target(OreFeatures.NATURAL_STONE, ModBlocks.ALABASTER_BLOCK.get().defaultBlockState()));
     public static final List<OreConfiguration.TargetBlockState> OVERWORLD_REDROCK = List.of(
@@ -29,6 +35,11 @@ public class ModConfiguredFeature {
             Feature.ORE.configured(new OreConfiguration(OVERWORLD_REDROCK, 64)));
     public static final ConfiguredFeature<?, ?> ORE_REDSTONE_REDROCK = FeatureUtils.register("ore_redstone_redrock",
             Feature.ORE.configured(new OreConfiguration(REDROCK_REPLACEABLES, 8)));
+
+    public static final ConfiguredFeature<?, ?> ORE_TUFF_IRON = FeatureUtils.register("ore_tuff_iron",
+            Feature.ORE.configured(new OreConfiguration(TUFF_REPLACEABLES, 8)));
+    public static final ConfiguredFeature<?, ?> ORE_GRANITE_COPPER = FeatureUtils.register("ore_granite_copper",
+            Feature.ORE.configured(new OreConfiguration(GRANITE_REPLACEABLES, 8)));
 
     public static final ConfiguredFeature<BlockStateConfiguration, ?> LIMESTONE_ROCK = FeatureUtils.register("limestone_rock",
             Feature.FOREST_ROCK.configured(new BlockStateConfiguration(ModBlocks.LIMESTONE_BLOCK.get().defaultBlockState())));

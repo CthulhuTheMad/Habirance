@@ -17,5 +17,7 @@ public class ModOreGeneration {
         base.add(() -> ModPlacedFeatures.ORE_REDROCK_LOWER_PLACED);
         base.add(() -> ModPlacedFeatures.ORE_REDROCK_UPPER_PLACED);
         base.add(() -> ModPlacedFeatures.ORE_REDSTONE_REDROCK);
+        base.add(() -> ModPlacedFeatures.ORE_TUFF_IRON);
+        base.add(() -> ModPlacedFeatures.ORE_GRANITE_COPPER);
     }
 }

@@ -15,7 +15,11 @@ public class ModPlacedFeatures {
     public static final PlacedFeature ORE_REDROCK_LOWER_PLACED = PlacementUtils.register("ore_redorck_lower_placed",
             ModConfiguredFeature.ORE_REDROCK.placed(ModOrePlacement.commonOrePlacement(2, HeightRangePlacement.uniform(VerticalAnchor.absolute(0), VerticalAnchor.absolute(60)))));
     public static final PlacedFeature ORE_REDSTONE_REDROCK = PlacementUtils.register("ore_redstone_redrock",
-            ModConfiguredFeature.ORE_REDSTONE_REDROCK.placed(ModOrePlacement.commonOrePlacement(2, HeightRangePlacement.uniform(VerticalAnchor.bottom(), VerticalAnchor.absolute(15)))));
+            ModConfiguredFeature.ORE_REDSTONE_REDROCK.placed(ModOrePlacement.commonOrePlacement(4, HeightRangePlacement.uniform(VerticalAnchor.bottom(), VerticalAnchor.absolute(15)))));
     public static final PlacedFeature LIMESTONE_ROCK = PlacementUtils.register("limestone_rock", ModConfiguredFeature.LIMESTONE_ROCK.placed(CountPlacement.of(4), InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome()));
+    public static final PlacedFeature ORE_TUFF_IRON = PlacementUtils.register("ore_tuff_iron",
+            ModConfiguredFeature.ORE_TUFF_IRON.placed(ModOrePlacement.commonOrePlacement(10, HeightRangePlacement.triangle(VerticalAnchor.bottom(), VerticalAnchor.absolute(0)))));
+    public static final PlacedFeature ORE_GRANITE_COPPER = PlacementUtils.register("ore_granite_copper",
+            ModConfiguredFeature.ORE_GRANITE_COPPER.placed(ModOrePlacement.commonOrePlacement(16, HeightRangePlacement.triangle(VerticalAnchor.absolute(-16), VerticalAnchor.absolute(112)))));
 
 }
