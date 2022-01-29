@@ -3,7 +3,6 @@ package net.endurteam.habirance.data;
 import net.endurteam.habirance.Habirance;
 import net.endurteam.habirance.block.ModBlocks;
 import net.minecraft.data.DataGenerator;
-import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.block.SlabBlock;
 import net.minecraft.world.level.block.StairBlock;
 import net.minecraft.world.level.block.WallBlock;
