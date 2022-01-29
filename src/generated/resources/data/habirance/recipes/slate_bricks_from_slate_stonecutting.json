@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "habirance:slate_block"
+  },
+  "result": "habirance:slate_bricks",
+  "count": 1
+}

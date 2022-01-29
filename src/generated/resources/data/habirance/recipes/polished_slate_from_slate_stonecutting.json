@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "habirance:slate_block"
+  },
+  "result": "habirance:polished_slate_block",
+  "count": 1
+}

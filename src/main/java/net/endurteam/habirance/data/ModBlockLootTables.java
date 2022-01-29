@@ -37,7 +37,6 @@ public class ModBlockLootTables extends BlockLoot {
         });
         this.add(ModBlocks.REDROCK_REDSTONE_ORE.get(), BlockLoot::createRedstoneOreDrops);
         this.add(ModBlocks.GRANITE_COPPER_ORE.get(), BlockLoot::createCopperOreDrops);
-
         this.dropSelf(ModBlocks.ALABASTER_BLOCK.get());
         this.dropSelf(ModBlocks.ALABASTER_STAIRS.get());
         this.dropSelf(ModBlocks.ALABASTER_WALL.get());
@@ -58,6 +57,34 @@ public class ModBlockLootTables extends BlockLoot {
         this.dropSelf(ModBlocks.REDROCK_BRICK_WALL.get());
         this.dropSelf(ModBlocks.CHISELED_REDROCK_BLOCK.get());
         this.dropSelf(ModBlocks.CRACKED_REDROCK_BRICKS.get());
+
+
+        this.add(ModBlocks.SLATE_BLOCK.get(), (p_124195_) -> {
+            return createSingleItemTableWithSilkTouch(p_124195_, ModBlocks.COBBLED_SLATE_BLOCK.get());
+        });
+        this.dropSelf(ModBlocks.COBBLED_SLATE_BLOCK.get());
+        this.dropSelf(ModBlocks.COBBLED_SLATE_WALL.get());
+        this.dropSelf(ModBlocks.COBBLED_SLATE_STAIRS.get());
+        this.add(ModBlocks.COBBLED_SLATE_SLAB.get(), (block) -> {
+            return createSlabItemTable(ModBlocks.COBBLED_SLATE_SLAB.get());
+        });
+        this.dropSelf(ModBlocks.SLATE_WALL.get());
+        this.dropSelf(ModBlocks.SLATE_STAIRS.get());
+        this.add(ModBlocks.SLATE_SLAB.get(), (block) -> {
+            return createSlabItemTable(ModBlocks.SLATE_SLAB.get());
+        });
+        this.dropSelf(ModBlocks.CHISELED_SLATE_BLOCK.get());
+        this.dropSelf(ModBlocks.POLISHED_SLATE_BLOCK.get());
+        this.dropSelf(ModBlocks.POLISHED_SLATE_STAIRS.get());
+        this.add(ModBlocks.POLISHED_SLATE_SLAB.get(), (block) -> {
+            return createSlabItemTable(ModBlocks.POLISHED_SLATE_SLAB.get());
+        });
+        this.dropSelf(ModBlocks.SLATE_BRICKS.get());
+        this.dropSelf(ModBlocks.SLATE_BRICK_STAIRS.get());
+        this.dropSelf(ModBlocks.SLATE_BRICK_WALL.get());
+        this.add(ModBlocks.SLATE_BRICK_SLAB.get(), (block) -> {
+            return createSlabItemTable(ModBlocks.SLATE_BRICK_SLAB.get());
+        });
     }
 
     @Override

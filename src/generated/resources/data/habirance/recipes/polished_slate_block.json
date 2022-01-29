@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SS",
+    "SS"
+  ],
+  "key": {
+    "S": {
+      "item": "habirance:slate_block"
+    }
+  },
+  "result": {
+    "item": "habirance:polished_slate_block",
+    "count": 4
+  }
+}

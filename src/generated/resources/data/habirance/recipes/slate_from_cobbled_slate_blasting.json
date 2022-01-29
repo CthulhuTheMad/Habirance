@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "habirance:cobbled_slate_block"
+  },
+  "result": "habirance:slate_block",
+  "experience": 0.1,
+  "cookingtime": 100
+}

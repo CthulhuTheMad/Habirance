@@ -29,6 +29,21 @@
   "block.habirance.tuff_iron_ore": "Tuff Iron Ore",
   "block.habirance.granite_copper_ore": "Granite Copper Ore",
   "block.habirance.redrock_redstone_ore": "Redrock Redstone Ore",
+  "block.habirance.chiseled_slate_block": "Chiseled Slate",
+  "block.habirance.slate_stairs": "Slate Stairs",
+  "block.habirance.slate_slab": "Slate Slab",
+  "block.habirance.slate_block": "Slate",
+  "block.habirance.slate_wall": "Slate Wall",
+  "block.habirance.slate_bricks": "Slate Bricks",
+  "block.habirance.slate_brick_slab": "Slate Brick Slab",
+  "block.habirance.slate_brick_stairs": "Slate Brick Stairs",
+  "block.habirance.polished_slate_block": "Polished Slate",
+  "block.habirance.polished_slate_stairs": "Polished Slate Stairs",
+  "block.habirance.polished_slate_slab": "Polished Slate Slab",
+  "block.habirance.cobbled_slate_block": "Cobbled Slate",
+  "block.habirance.cobbled_slate_stairs": "Cobbled Slate Stairs",
+  "block.habirance.cobbled_slate_slab": "Cobbled Slate Slab",
+  "block.habirance.cobbled_slate_wall": "Cobbled Slate Wall",
 
   "itemGroup.habirancetab": "Habirance"
 }

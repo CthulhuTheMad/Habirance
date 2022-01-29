@@ -1,0 +1,14 @@
+
+{
+  "variants": {
+    "type=bottom": {
+      "model": "habirance:block/slate_slab"
+    },
+    "type=double": {
+      "model": "habirance:block/slate_block"
+    },
+    "type=top": {
+      "model": "habirance:block/slate_slab_top"
+    }
+  }
+}
