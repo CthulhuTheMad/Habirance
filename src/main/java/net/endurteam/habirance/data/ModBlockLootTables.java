@@ -85,6 +85,26 @@ public class ModBlockLootTables extends BlockLoot {
         this.add(ModBlocks.SLATE_BRICK_SLAB.get(), (block) -> {
             return createSlabItemTable(ModBlocks.SLATE_BRICK_SLAB.get());
         });
+
+        this.dropSelf(ModBlocks.COBBLESTONE_BRICKS.get());
+        this.dropSelf(ModBlocks.COBBLESTONE_BRICK_WALL.get());
+        this.dropSelf(ModBlocks.COBBLESTONE_BRICK_STAIRS.get());
+        this.add(ModBlocks.COBBLESTONE_BRICK_SLAB.get(), (block) -> {
+            return createSlabItemTable(ModBlocks.COBBLESTONE_BRICK_SLAB.get());
+        });
+        this.dropSelf(ModBlocks.CRACKED_COBBLESTONE_BRICKS.get());
+        this.dropSelf(ModBlocks.POLISHED_COBBLESTONE_BRICKS.get());
+        this.dropSelf(ModBlocks.POLISHED_COBBLESTONE_BRICK_STAIRS.get());
+        this.add(ModBlocks.POLISHED_COBBLESTONE_BRICK_SLAB.get(), (block) -> {
+            return createSlabItemTable(ModBlocks.POLISHED_COBBLESTONE_BRICK_SLAB.get());
+        });
+        this.dropSelf(ModBlocks.CRACKED_POLISHED_COBBLESTONE_BRICKS.get());
+
+        this.dropSelf(ModBlocks.POLISHED_COBBLESTONE_BLOCK.get());
+        this.dropSelf(ModBlocks.POLISHED_COBBLESTONE_STAIRS.get());
+        this.add(ModBlocks.POLISHED_COBBLESTONE_SLAB.get(), (block) -> {
+            return createSlabItemTable(ModBlocks.POLISHED_COBBLESTONE_SLAB.get());
+        });
     }
 
     @Override

@@ -37,6 +37,7 @@
   "block.habirance.slate_bricks": "Slate Bricks",
   "block.habirance.slate_brick_slab": "Slate Brick Slab",
   "block.habirance.slate_brick_stairs": "Slate Brick Stairs",
+  "block.habirance.slate_brick_wall": "Slate Brick Wall",
   "block.habirance.polished_slate_block": "Polished Slate",
   "block.habirance.polished_slate_stairs": "Polished Slate Stairs",
   "block.habirance.polished_slate_slab": "Polished Slate Slab",
@@ -44,6 +45,19 @@
   "block.habirance.cobbled_slate_stairs": "Cobbled Slate Stairs",
   "block.habirance.cobbled_slate_slab": "Cobbled Slate Slab",
   "block.habirance.cobbled_slate_wall": "Cobbled Slate Wall",
+
+  "block.habirance.cobblestone_bricks": "Cobblestone Bricks",
+  "block.habirance.cobblestone_brick_slab": "Cobblestone Brick Slab",
+  "block.habirance.cobblestone_brick_stairs": "Cobblestone Brick Stairs",
+  "block.habirance.cobblestone_brick_wall": "Cobblestone Brick Wall",
+  "block.habirance.cracked_cobblestone_bricks": "Cracked Cobblestone Bricks",
+  "block.habirance.polished_cobblestone_bricks": "Polished Cobblestone Bricks",
+  "block.habirance.polished_cobblestone_brick_stairs": "Polished Cobblestone Brick Stairs",
+  "block.habirance.polished_cobblestone_brick_slab": "Polished Cobblestone Brick Slab",
+  "block.habirance.cracked_polished_cobblestone_bricks": "Cracked Polished Cobblestone Bricks",
+  "block.habirance.polished_cobblestone_block": "Polished Cobblestone",
+  "block.habirance.polished_cobblestone_stairs": "Polished Cobblestone Stairs",
+  "block.habirance.polished_cobblestone_slab": "Polished Cobblestone Slab",
 
   "itemGroup.habirancetab": "Habirance"
 }

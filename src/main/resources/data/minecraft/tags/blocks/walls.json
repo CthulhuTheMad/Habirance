@@ -4,6 +4,10 @@
     "habirance:alabaster_wall",
     "habirance:redrock_wall",
     "habirance:redrock_brick_wall",
-    "habirance:limestone_wall"
+    "habirance:limestone_wall",
+    "habirance:slate_wall",
+    "habirance:slate_brick_wall",
+    "habirance:cobbled_slate_wall",
+    "habirance:cobblestone_brick_wall"
   ]
 }

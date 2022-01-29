@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "habirance:polished_cobblestone_bricks"
+  },
+  "result": "habirance:cracked_polished_cobblestone_bricks",
+  "experience": 0.1,
+  "cookingtime": 200
+}

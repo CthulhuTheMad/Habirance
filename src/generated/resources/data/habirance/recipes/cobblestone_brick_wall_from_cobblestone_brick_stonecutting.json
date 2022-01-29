@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "habirance:cobblestone_bricks"
+  },
+  "result": "habirance:cobblestone_brick_wall",
+  "count": 1
+}

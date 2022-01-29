@@ -85,7 +85,6 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.DIRT).requiresCorrectToolForDrops().strength(1.5F, 6.0F)), ModCreativeModeTab.HABIRANCE_TAB);
     public static final RegistryObject<Block> REDROCK_REDSTONE_ORE = registerBlock("redrock_redstone_ore",
             () -> new RedrockRedstoneOreBlock(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.DIRT).requiresCorrectToolForDrops().randomTicks().lightLevel(litBlockEmission(9)).strength(3.0F, 6.0F)), ModCreativeModeTab.HABIRANCE_TAB);
-
     public static final RegistryObject<Block> SLATE_BLOCK = registerBlock("slate_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.TERRACOTTA_GRAY).requiresCorrectToolForDrops().strength(1.5F, 6.0F)), ModCreativeModeTab.HABIRANCE_TAB);
     public static final RegistryObject<Block> COBBLED_SLATE_BLOCK = registerBlock("cobbled_slate_block",
@@ -118,6 +117,32 @@ public class ModBlocks {
             () -> new StairBlock(() -> ModBlocks.SLATE_BRICKS.get().defaultBlockState(), BlockBehaviour.Properties.of(Material.STONE, MaterialColor.TERRACOTTA_GRAY).requiresCorrectToolForDrops().strength(1.5F, 6.0F)), ModCreativeModeTab.HABIRANCE_TAB);
     public static final RegistryObject<Block> SLATE_BRICK_SLAB = registerBlock("slate_brick_slab",
             () -> new SlabBlock(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.TERRACOTTA_GRAY).requiresCorrectToolForDrops().strength(1.5F, 6.0F)), ModCreativeModeTab.HABIRANCE_TAB);
+
+    public static final RegistryObject<Block> COBBLESTONE_BRICKS = registerBlock("cobblestone_bricks",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(2.0F, 6.0F)), ModCreativeModeTab.HABIRANCE_TAB);
+    public static final RegistryObject<Block> COBBLESTONE_BRICK_WALL = registerBlock("cobblestone_brick_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(2.0F, 6.0F)), ModCreativeModeTab.HABIRANCE_TAB);
+    public static final RegistryObject<Block> COBBLESTONE_BRICK_STAIRS = registerBlock("cobblestone_brick_stairs",
+            () -> new StairBlock(() -> ModBlocks.COBBLESTONE_BRICKS.get().defaultBlockState(), BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(2.0F, 6.0F)), ModCreativeModeTab.HABIRANCE_TAB);
+    public static final RegistryObject<Block> COBBLESTONE_BRICK_SLAB = registerBlock("cobblestone_brick_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(2.0F, 6.0F)), ModCreativeModeTab.HABIRANCE_TAB);
+    public static final RegistryObject<Block> CRACKED_COBBLESTONE_BRICKS = registerBlock("cracked_cobblestone_bricks",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(2.0F, 6.0F)), ModCreativeModeTab.HABIRANCE_TAB);
+    public static final RegistryObject<Block> POLISHED_COBBLESTONE_BRICKS = registerBlock("polished_cobblestone_bricks",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(2.0F, 6.0F)), ModCreativeModeTab.HABIRANCE_TAB);
+    public static final RegistryObject<Block> POLISHED_COBBLESTONE_BRICK_STAIRS = registerBlock("polished_cobblestone_brick_stairs",
+            () -> new StairBlock(() -> ModBlocks.POLISHED_COBBLESTONE_BRICKS.get().defaultBlockState(), BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(2.0F, 6.0F)), ModCreativeModeTab.HABIRANCE_TAB);
+    public static final RegistryObject<Block> POLISHED_COBBLESTONE_BRICK_SLAB = registerBlock("polished_cobblestone_brick_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(2.0F, 6.0F)), ModCreativeModeTab.HABIRANCE_TAB);
+    public static final RegistryObject<Block> CRACKED_POLISHED_COBBLESTONE_BRICKS = registerBlock("cracked_polished_cobblestone_bricks",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(2.0F, 6.0F)), ModCreativeModeTab.HABIRANCE_TAB);
+    public static final RegistryObject<Block> POLISHED_COBBLESTONE_BLOCK = registerBlock("polished_cobblestone_block",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(2.0F, 6.0F)), ModCreativeModeTab.HABIRANCE_TAB);
+    public static final RegistryObject<Block> POLISHED_COBBLESTONE_STAIRS = registerBlock("polished_cobblestone_stairs",
+            () -> new StairBlock(() -> ModBlocks.POLISHED_COBBLESTONE_BLOCK.get().defaultBlockState(), BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(2.0F, 6.0F)), ModCreativeModeTab.HABIRANCE_TAB);
+    public static final RegistryObject<Block> POLISHED_COBBLESTONE_SLAB = registerBlock("polished_cobblestone_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(2.0F, 6.0F)), ModCreativeModeTab.HABIRANCE_TAB);
+
 
 
     private static ToIntFunction<BlockState> litBlockEmission(int pLightValue) {
