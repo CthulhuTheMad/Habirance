@@ -65,11 +65,11 @@ public class ModLanguageProvider extends LanguageProvider {
                 add("block.habirance.cobblestone_brick_stairs", "Cobblestone Brick Stairs");
                 add("block.habirance.cobblestone_brick_slab", "Cobblestone Brick Slab");
                 add("block.habirance.cobblestone_brick_wall", "Cobblestone Brick Wall");
-                add("block.habirance.cracked_cobblestone_brick_bricks", "Cracked Cobblestone Bricks");
-                add("block.habirance.polished_cobblestone_brick_bricks", "Polished Cobblestone Bricks");
+                add("block.habirance.cracked_cobblestone_bricks", "Cracked Cobblestone Bricks");
+                add("block.habirance.polished_cobblestone_bricks", "Polished Cobblestone Bricks");
                 add("block.habirance.polished_cobblestone_brick_stairs", "Polished Cobblestone Brick Stairs");
                 add("block.habirance.polished_cobblestone_brick_slab", "Polished Cobblestone Brick Slab");
-                add("block.habirance.cracked_polished_cobblestone_brick_bricks", "Cracked Polished Cobblestone Bricks");
+                add("block.habirance.cracked_polished_cobblestone_bricks", "Cracked Polished Cobblestone Bricks");
                 add("block.habirance.polished_cobblestone_block", "Polished Cobblestone");
                 add("block.habirance.polished_cobblestone_stairs", "Polished Cobblestone Stairs");
                 add("block.habirance.polished_cobblestone_slab", "Polished Cobblestone Slab");
