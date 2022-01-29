@@ -1,7 +1,6 @@
-
 {
   "parent": "minecraft:block/wall_inventory",
   "textures": {
-    "wall": "habirance:block/redrock_bricks"
+    "wall": "habirance:block/slate_block"
   }
 }

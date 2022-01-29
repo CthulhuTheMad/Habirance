@@ -3,6 +3,7 @@ package net.endurteam.habirance.data;
 import net.endurteam.habirance.Habirance;
 import net.endurteam.habirance.block.ModBlocks;
 import net.minecraft.data.DataGenerator;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.block.SlabBlock;
 import net.minecraft.world.level.block.StairBlock;
 import net.minecraft.world.level.block.WallBlock;
@@ -90,5 +91,15 @@ public class ModBlockstateProvider extends BlockStateProvider {
         wallBlock((WallBlock) ModBlocks.REDROCK_WALL.get(), modLoc("block/redrock_block"));
         wallBlock((WallBlock) ModBlocks.SLATE_BRICK_WALL.get(), modLoc("block/slate_bricks"));
         wallBlock((WallBlock) ModBlocks.SLATE_WALL.get(), modLoc("block/slate_block"));
+        models().wallInventory("alabaster_wall_inventory", modLoc("block/alabaster_block"));
+        models().wallInventory("cobbled_slate_wall_inventory", modLoc("block/cobbled_slate_block"));
+        models().wallInventory("cobblestone_brick_wall_inventory", modLoc("block/cobblestone_bricks"));
+        models().wallInventory("limestone_wall_inventory", modLoc("block/limestone_block"));
+        models().wallInventory("redrock_brick_wall_inventory", modLoc("block/redrock_bricks"));
+        models().wallInventory("redrock_wall_inventory", modLoc("block/redrock_block"));
+        models().wallInventory("slate_brick_wall_inventory", modLoc("block/slate_bricks"));
+        models().wallInventory("slate_wall_inventory", modLoc("block/slate_block"));
     }
+
+
 }
