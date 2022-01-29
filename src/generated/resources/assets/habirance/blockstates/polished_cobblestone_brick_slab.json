@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=top": {
+      "model": "habirance:block/polished_cobblestone_brick_slab_top"
+    },
+    "type=bottom": {
+      "model": "habirance:block/polished_cobblestone_brick_slab"
+    },
+    "type=double": {
+      "model": "habirance:block/polished_cobblestone_bricks"
+    }
+  }
+}

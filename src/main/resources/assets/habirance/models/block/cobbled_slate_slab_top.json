@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/slab_top",
-  "textures": {
-    "bottom": "habirance:block/cobbled_slate_block",
-    "top": "habirance:block/cobbled_slate_block",
-    "side": "habirance:block/cobbled_slate_block"
-  }
-}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "side": "habirance:block/polished_alabaster_block",
+    "bottom": "habirance:block/polished_alabaster_block",
+    "top": "habirance:block/polished_alabaster_block"
+  }
+}

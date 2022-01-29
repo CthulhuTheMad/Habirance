@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=top": {
+      "model": "habirance:block/polished_alabaster_slab_top"
+    },
+    "type=bottom": {
+      "model": "habirance:block/polished_alabaster_slab"
+    },
+    "type=double": {
+      "model": "habirance:block/polished_alabaster_block"
+    }
+  }
+}

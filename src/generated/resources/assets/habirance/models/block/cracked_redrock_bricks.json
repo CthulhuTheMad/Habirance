@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "habirance:block/cracked_redrock_bricks"
+  }
+}

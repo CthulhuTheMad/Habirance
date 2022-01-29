@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "side": "habirance:block/limestone_block",
+    "bottom": "habirance:block/limestone_block",
+    "top": "habirance:block/limestone_block"
+  }
+}
