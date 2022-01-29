@@ -48,6 +48,19 @@
     "habirance:polished_cobblestone_stairs",
     "habirance:cracked_cobblestone_bricks",
     "habirance:cracked_polished_cobblestone_bricks",
+    "habirance:igneot_block",
+    "habirance:igneot_stairs",
+    "habirance:igneot_slab",
+    "habirance:igneot_bricks",
+    "habirance:igneot_brick_stairs",
+    "habirance:igneot_brick_slab",
+    "habirance:cobbled_igneot_block",
+    "habirance:cobbled_igneot_stairs",
+    "habirance:cobbled_igneot_slab",
+    "habirance:cobbled_igneot_bricks",
+    "habirance:cobbled_igneot_brick_stairs",
+    "habirance:cobbled_igneot_brick_slab",
+    "habirance:chiseled_igneot_bricks",
     "#minecraft:walls"
   ]
 }

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "side": "habirance:block/igneot_block",
+    "bottom": "habirance:block/igneot_block",
+    "top": "habirance:block/igneot_block"
+  }
+}

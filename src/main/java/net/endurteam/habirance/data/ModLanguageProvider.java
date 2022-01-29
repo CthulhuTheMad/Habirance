@@ -73,6 +73,23 @@ public class ModLanguageProvider extends LanguageProvider {
                 add("block.habirance.polished_cobblestone_block", "Polished Cobblestone");
                 add("block.habirance.polished_cobblestone_stairs", "Polished Cobblestone Stairs");
                 add("block.habirance.polished_cobblestone_slab", "Polished Cobblestone Slab");
+                add("block.habirance.igneot_block", "Igneot");
+                add("block.habirance.igneot_stairs", "Igneot Stairs");
+                add("block.habirance.igneot_slab", "Igneot Slab");
+                add("block.habirance.igneot_wall", "Igneot Wall");
+                add("block.habirance.igneot_bricks", "Igneot Bricks");
+                add("block.habirance.chiseled_igneot_bricks", "Chiseled Igneot Bricks");
+                add("block.habirance.igneot_brick_stairs", "Igneot Brick Stairs");
+                add("block.habirance.igneot_brick_slab", "Igneot Brick Slab");
+                add("block.habirance.igneot_brick_wall", "Igneot Brick Wall");
+                add("block.habirance.cobbled_igneot_block", "Cobbled Igneot");
+                add("block.habirance.cobbled_igneot_stairs", "Cobbled Igneot Stairs");
+                add("block.habirance.cobbled_igneot_slab", "Cobbled Igneot Slab");
+                add("block.habirance.cobbled_igneot_wall", "Cobbled Igneot Wall");
+                add("block.habirance.cobbled_igneot_bricks", "Cobbled Igneot Bricks");
+                add("block.habirance.cobbled_igneot_brick_stairs", "Cobbled Igneot Brick Stairs");
+                add("block.habirance.cobbled_igneot_brick_slab", "Cobbled Igneot Brick Slab");
+                add("block.habirance.cobbled_igneot_brick_wall", "Cobbled Igneot Brick Wall");
                 add("itemGroup.habirancetab", "Habirance");
                 break;
             default:

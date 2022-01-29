@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "habirance:igneot_brick_slab_from_igneot_bricks_stonecutting"
+    ]
+  },
+  "criteria": {
+    "has_igneot_bricks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "habirance:igneot_bricks"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "habirance:igneot_brick_slab_from_igneot_bricks_stonecutting"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_igneot_bricks",
+      "has_the_recipe"
+    ]
+  ]
+}

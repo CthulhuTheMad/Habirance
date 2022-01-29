@@ -8,6 +8,10 @@
     "habirance:slate_wall",
     "habirance:slate_brick_wall",
     "habirance:cobbled_slate_wall",
-    "habirance:cobblestone_brick_wall"
+    "habirance:cobblestone_brick_wall",
+    "habirance:igneot_wall",
+    "habirance:igneot_brick_wall",
+    "habirance:cobbled_igneot_wall",
+    "habirance:cobbled_igneot_brick_wall"
   ]
 }

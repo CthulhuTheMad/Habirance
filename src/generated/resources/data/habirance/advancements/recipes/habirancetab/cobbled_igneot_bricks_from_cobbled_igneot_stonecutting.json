@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "habirance:cobbled_igneot_bricks_from_cobbled_igneot_stonecutting"
+    ]
+  },
+  "criteria": {
+    "has_cobbled_igneot_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "habirance:cobbled_igneot_block"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "habirance:cobbled_igneot_bricks_from_cobbled_igneot_stonecutting"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_cobbled_igneot_block",
+      "has_the_recipe"
+    ]
+  ]
+}

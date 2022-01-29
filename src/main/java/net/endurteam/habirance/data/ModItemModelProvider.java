@@ -40,6 +40,11 @@ public class ModItemModelProvider extends ItemModelProvider {
         withExistingParent("slate_block", modLoc("block/slate_block"));
         withExistingParent("slate_bricks", modLoc("block/slate_bricks"));
         withExistingParent("tuff_iron_ore", modLoc("block/tuff_iron_ore"));
+        withExistingParent("igneot_block", modLoc("block/igneot_block"));
+        withExistingParent("igneot_bricks", modLoc("block/igneot_bricks"));
+        withExistingParent("chiseled_igneot_bricks", modLoc("block/chiseled_igneot_bricks"));
+        withExistingParent("cobbled_igneot_block", modLoc("block/cobbled_igneot_block"));
+        withExistingParent("cobbled_igneot_bricks", modLoc("block/cobbled_igneot_bricks"));
 
         /**
          * Stair block items
@@ -58,6 +63,10 @@ public class ModItemModelProvider extends ItemModelProvider {
         withExistingParent("redrock_stairs", modLoc("block/redrock_stairs"));
         withExistingParent("slate_stairs", modLoc("block/slate_stairs"));
         withExistingParent("slate_brick_stairs", modLoc("block/slate_brick_stairs"));
+        withExistingParent("igneot_stairs", modLoc("block/igneot_stairs"));
+        withExistingParent("igneot_brick_stairs", modLoc("block/igneot_brick_stairs"));
+        withExistingParent("cobbled_igneot_stairs", modLoc("block/cobbled_igneot_stairs"));
+        withExistingParent("cobbled_igneot_brick_stairs", modLoc("block/cobbled_igneot_brick_stairs"));
 
         /**
          * Slab Block Items
@@ -76,6 +85,10 @@ public class ModItemModelProvider extends ItemModelProvider {
         withExistingParent("redrock_slab", modLoc("block/redrock_slab"));
         withExistingParent("slate_brick_slab", modLoc("block/slate_brick_slab"));
         withExistingParent("slate_slab", modLoc("block/slate_slab"));
+        withExistingParent("igneot_slab", modLoc("block/igneot_slab"));
+        withExistingParent("igneot_brick_slab", modLoc("block/igneot_brick_slab"));
+        withExistingParent("cobbled_igneot_slab", modLoc("block/cobbled_igneot_slab"));
+        withExistingParent("cobbled_igneot_brick_slab", modLoc("block/cobbled_igneot_brick_slab"));
 
         /**
          * Wall Block Items
@@ -88,6 +101,10 @@ public class ModItemModelProvider extends ItemModelProvider {
         withExistingParent("redrock_wall", modLoc("block/redrock_wall_inventory"));
         withExistingParent("slate_brick_wall", modLoc("block/slate_brick_wall_inventory"));
         withExistingParent("slate_wall", modLoc("block/slate_wall_inventory"));
+        withExistingParent("igneot_wall", modLoc("block/igneot_wall_inventory"));
+        withExistingParent("igneot_brick_wall", modLoc("block/igneot_brick_wall_inventory"));
+        withExistingParent("cobbled_igneot_wall", modLoc("block/cobbled_igneot_wall_inventory"));
+        withExistingParent("cobbled_igneot_brick_wall", modLoc("block/cobbled_igneot_brick_wall_inventory"));
 
         /**
          * How to generate basic item models

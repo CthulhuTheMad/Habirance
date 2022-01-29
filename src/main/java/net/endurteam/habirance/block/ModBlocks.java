@@ -117,7 +117,6 @@ public class ModBlocks {
             () -> new StairBlock(() -> ModBlocks.SLATE_BRICKS.get().defaultBlockState(), BlockBehaviour.Properties.of(Material.STONE, MaterialColor.TERRACOTTA_GRAY).requiresCorrectToolForDrops().strength(1.5F, 6.0F)), ModCreativeModeTab.HABIRANCE_TAB);
     public static final RegistryObject<Block> SLATE_BRICK_SLAB = registerBlock("slate_brick_slab",
             () -> new SlabBlock(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.TERRACOTTA_GRAY).requiresCorrectToolForDrops().strength(1.5F, 6.0F)), ModCreativeModeTab.HABIRANCE_TAB);
-
     public static final RegistryObject<Block> COBBLESTONE_BRICKS = registerBlock("cobblestone_bricks",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(2.0F, 6.0F)), ModCreativeModeTab.HABIRANCE_TAB);
     public static final RegistryObject<Block> COBBLESTONE_BRICK_WALL = registerBlock("cobblestone_brick_wall",
@@ -142,7 +141,40 @@ public class ModBlocks {
             () -> new StairBlock(() -> ModBlocks.POLISHED_COBBLESTONE_BLOCK.get().defaultBlockState(), BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(2.0F, 6.0F)), ModCreativeModeTab.HABIRANCE_TAB);
     public static final RegistryObject<Block> POLISHED_COBBLESTONE_SLAB = registerBlock("polished_cobblestone_slab",
             () -> new SlabBlock(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(2.0F, 6.0F)), ModCreativeModeTab.HABIRANCE_TAB);
-
+    public static final RegistryObject<Block> IGNEOT_BLOCK = registerBlock("igneot_block",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(1.5F, 6.0F)), ModCreativeModeTab.HABIRANCE_TAB);
+    public static final RegistryObject<Block> IGNEOT_WALL = registerBlock("igneot_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(1.5F, 6.0F)), ModCreativeModeTab.HABIRANCE_TAB);
+    public static final RegistryObject<Block> IGNEOT_STAIRS = registerBlock("igneot_stairs",
+            () -> new StairBlock(() -> ModBlocks.IGNEOT_BLOCK.get().defaultBlockState(), BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(1.5F, 6.0F)), ModCreativeModeTab.HABIRANCE_TAB);
+    public static final RegistryObject<Block> IGNEOT_SLAB = registerBlock("igneot_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(1.5F, 6.0F)), ModCreativeModeTab.HABIRANCE_TAB);
+    public static final RegistryObject<Block> IGNEOT_BRICKS = registerBlock("igneot_bricks",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(1.5F, 6.0F)), ModCreativeModeTab.HABIRANCE_TAB);
+    public static final RegistryObject<Block> IGNEOT_BRICK_WALL = registerBlock("igneot_brick_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(1.5F, 6.0F)), ModCreativeModeTab.HABIRANCE_TAB);
+    public static final RegistryObject<Block> IGNEOT_BRICK_STAIRS = registerBlock("igneot_brick_stairs",
+            () -> new StairBlock(() -> ModBlocks.IGNEOT_BRICKS.get().defaultBlockState(), BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(1.5F, 6.0F)), ModCreativeModeTab.HABIRANCE_TAB);
+    public static final RegistryObject<Block> IGNEOT_BRICK_SLAB = registerBlock("igneot_brick_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(1.5F, 6.0F)), ModCreativeModeTab.HABIRANCE_TAB);
+    public static final RegistryObject<Block> CHISELED_IGNEOT_BRICKS = registerBlock("chiseled_igneot_bricks",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(1.5F, 6.0F)), ModCreativeModeTab.HABIRANCE_TAB);
+    public static final RegistryObject<Block> COBBLED_IGNEOT_BLOCK = registerBlock("cobbled_igneot_block",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(1.5F, 6.0F)), ModCreativeModeTab.HABIRANCE_TAB);
+    public static final RegistryObject<Block> COBBLED_IGNEOT_WALL = registerBlock("cobbled_igneot_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(1.5F, 6.0F)), ModCreativeModeTab.HABIRANCE_TAB);
+    public static final RegistryObject<Block> COBBLED_IGNEOT_STAIRS = registerBlock("cobbled_igneot_stairs",
+            () -> new StairBlock(() -> ModBlocks.IGNEOT_BLOCK.get().defaultBlockState(), BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(1.5F, 6.0F)), ModCreativeModeTab.HABIRANCE_TAB);
+    public static final RegistryObject<Block> COBBLED_IGNEOT_SLAB = registerBlock("cobbled_igneot_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(1.5F, 6.0F)), ModCreativeModeTab.HABIRANCE_TAB);
+    public static final RegistryObject<Block> COBBLED_IGNEOT_BRICKS = registerBlock("cobbled_igneot_bricks",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(1.5F, 6.0F)), ModCreativeModeTab.HABIRANCE_TAB);
+    public static final RegistryObject<Block> COBBLED_IGNEOT_BRICK_WALL = registerBlock("cobbled_igneot_brick_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(1.5F, 6.0F)), ModCreativeModeTab.HABIRANCE_TAB);
+    public static final RegistryObject<Block> COBBLED_IGNEOT_BRICK_STAIRS = registerBlock("cobbled_igneot_brick_stairs",
+            () -> new StairBlock(() -> ModBlocks.COBBLED_IGNEOT_BRICKS.get().defaultBlockState(), BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(1.5F, 6.0F)), ModCreativeModeTab.HABIRANCE_TAB);
+    public static final RegistryObject<Block> COBBLED_IGNEOT_BRICK_SLAB = registerBlock("cobbled_igneot_brick_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(1.5F, 6.0F)), ModCreativeModeTab.HABIRANCE_TAB);
 
 
     private static ToIntFunction<BlockState> litBlockEmission(int pLightValue) {
