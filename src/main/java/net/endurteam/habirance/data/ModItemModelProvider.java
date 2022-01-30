@@ -45,6 +45,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         withExistingParent("chiseled_igneot_bricks", modLoc("block/chiseled_igneot_bricks"));
         withExistingParent("cobbled_igneot_block", modLoc("block/cobbled_igneot_block"));
         withExistingParent("cobbled_igneot_bricks", modLoc("block/cobbled_igneot_bricks"));
+        withExistingParent("cobbled_chiseled_igneot_bricks", modLoc("block/cobbled_chiseled_igneot_bricks"));
 
         /**
          * Stair block items

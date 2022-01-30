@@ -48,6 +48,7 @@ public class ModBlockstateProvider extends BlockStateProvider {
         simpleBlock(ModBlocks.CHISELED_IGNEOT_BRICKS.get());
         simpleBlock(ModBlocks.COBBLED_IGNEOT_BLOCK.get());
         simpleBlock(ModBlocks.COBBLED_IGNEOT_BRICKS.get());
+        simpleBlock(ModBlocks.COBBLED_CHISELED_IGNEOT_BRICKS.get());
 
         /**
          * Stair blockstates and models

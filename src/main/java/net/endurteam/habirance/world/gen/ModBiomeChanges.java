@@ -25,5 +25,12 @@ public class ModBiomeChanges {
 
             base.add(() -> ModPlacedFeatures.LIMESTONE_ROCK);
         }
+
+        if (types.contains(BiomeDictionary.Type.JUNGLE)) {
+            List<Supplier<PlacedFeature>> baseTwo =
+                    event.getGeneration().getFeatures(GenerationStep.Decoration.LOCAL_MODIFICATIONS);
+
+            baseTwo.add(() -> ModPlacedFeatures.SLATE_ROCK);
+        }
     }
 }

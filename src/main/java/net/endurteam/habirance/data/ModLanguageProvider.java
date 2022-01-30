@@ -90,6 +90,7 @@ public class ModLanguageProvider extends LanguageProvider {
                 add("block.habirance.cobbled_igneot_brick_stairs", "Cobbled Igneot Brick Stairs");
                 add("block.habirance.cobbled_igneot_brick_slab", "Cobbled Igneot Brick Slab");
                 add("block.habirance.cobbled_igneot_brick_wall", "Cobbled Igneot Brick Wall");
+                add("block.habirance.cobbled_chiseled_igneot_bricks", "Cobbled Chiseled Igneot Bricks");
                 add("itemGroup.habirancetab", "Habirance");
                 break;
             default:

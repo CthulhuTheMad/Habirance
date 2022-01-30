@@ -1,5 +1,31 @@
 Changelog:
 
+*Habirance Ver-0.0.3-Alpha*
+
+**CHANGES**
+-Added 3 new ores!
+    -Redrock Redstone Ore
+    -Granite Copper Ore
+    -Tuff Iron Ore
+-Added multiple blocks
+    -Cobblestone Bricks and variants
+    -Slate and variants
+    -Igneot and variants
+-Alabaster now spawns lower in the world with smaller vein sizes
+-Slate is a new block that spawns in the jungle starting at Y level 30 and higher.
+-Igneot is a new block that spawns only in the nether.
+
+**BUG FIXES**
+-Multiple Typos fixed
+-Unused snippets of code Removed
+
+**BACKEND**
+-All resources for internal datapack is now generated using data generators(Less work for devs in future)
+    -Java docs on data Generator pages have been started but are not completed.
+-Now runs on the latest version of Forge which is at this time: "forge:1.18.1-39.0.63"
+
+
+
 *Habirance Ver-0.0.2-Alpha*
 
 **CHANGES**

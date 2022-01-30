@@ -8,7 +8,7 @@ public class ModCreativeModeTab {
     public static final CreativeModeTab HABIRANCE_TAB = new CreativeModeTab("habirancetab") {
         @Override
         public ItemStack makeIcon() {
-            return new ItemStack(ModBlocks.ALABASTER_BLOCK.get());
+            return new ItemStack(ModBlocks.LIMESTONE_BLOCK.get());
         }
     };
 }

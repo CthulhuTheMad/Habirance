@@ -122,6 +122,7 @@ public class ModBlockLootTables extends BlockLoot {
             return createSlabItemTable(ModBlocks.COBBLED_IGNEOT_SLAB.get());
         });
         this.dropSelf(ModBlocks.COBBLED_IGNEOT_BRICKS.get());
+        this.dropSelf(ModBlocks.COBBLED_CHISELED_IGNEOT_BRICKS.get());
         this.dropSelf(ModBlocks.COBBLED_IGNEOT_BRICK_WALL.get());
         this.dropSelf(ModBlocks.COBBLED_IGNEOT_BRICK_STAIRS.get());
         this.add(ModBlocks.COBBLED_IGNEOT_BRICK_SLAB.get(), (block) -> {

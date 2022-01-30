@@ -169,6 +169,8 @@ public class ModBlocks {
             () -> new SlabBlock(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(1.5F, 6.0F)), ModCreativeModeTab.HABIRANCE_TAB);
     public static final RegistryObject<Block> COBBLED_IGNEOT_BRICKS = registerBlock("cobbled_igneot_bricks",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(1.5F, 6.0F)), ModCreativeModeTab.HABIRANCE_TAB);
+    public static final RegistryObject<Block> COBBLED_CHISELED_IGNEOT_BRICKS = registerBlock("cobbled_chiseled_igneot_bricks",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(1.5F, 6.0F)), ModCreativeModeTab.HABIRANCE_TAB);
     public static final RegistryObject<Block> COBBLED_IGNEOT_BRICK_WALL = registerBlock("cobbled_igneot_brick_wall",
             () -> new WallBlock(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(1.5F, 6.0F)), ModCreativeModeTab.HABIRANCE_TAB);
     public static final RegistryObject<Block> COBBLED_IGNEOT_BRICK_STAIRS = registerBlock("cobbled_igneot_brick_stairs",
