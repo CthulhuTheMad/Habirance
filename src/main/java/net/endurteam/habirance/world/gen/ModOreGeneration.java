@@ -22,9 +22,9 @@ public class ModOreGeneration {
                 event.getGeneration().getFeatures(GenerationStep.Decoration.UNDERGROUND_ORES);
 
         base.add(() -> ModPlacedFeatures.ORE_ALABASTER_PLACED);
-        base.add(() -> ModPlacedFeatures.ORE_REDROCK_LOWER_PLACED);
-        base.add(() -> ModPlacedFeatures.ORE_REDROCK_UPPER_PLACED);
-        base.add(() -> ModPlacedFeatures.ORE_REDSTONE_REDROCK);
+        base.add(() -> ModPlacedFeatures.ORE_RUSSET_LOWER_PLACED);
+        base.add(() -> ModPlacedFeatures.ORE_RUSSET_UPPER_PLACED);
+        base.add(() -> ModPlacedFeatures.ORE_REDSTONE_RUSSET);
         base.add(() -> ModPlacedFeatures.ORE_TUFF_IRON);
         base.add(() -> ModPlacedFeatures.ORE_GRANITE_COPPER);
         base.add(() -> ModPlacedFeatures.ORE_IGNEOT_PLACED);

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "side": "habirance:block/russet_block",
+    "bottom": "habirance:block/russet_block",
+    "top": "habirance:block/russet_block"
+  }
+}

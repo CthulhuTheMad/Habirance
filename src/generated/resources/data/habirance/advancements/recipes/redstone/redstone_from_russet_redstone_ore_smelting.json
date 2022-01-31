@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "habirance:redstone_from_russet_redstone_ore_smelting"
+    ]
+  },
+  "criteria": {
+    "has_russet_redstone_ore": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "habirance:russet_redstone_ore"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "habirance:redstone_from_russet_redstone_ore_smelting"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_russet_redstone_ore",
+      "has_the_recipe"
+    ]
+  ]
+}

@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/slab_top",
-  "textures": {
-    "side": "habirance:block/polished_redrock_block",
-    "bottom": "habirance:block/polished_redrock_block",
-    "top": "habirance:block/polished_redrock_block"
-  }
-}

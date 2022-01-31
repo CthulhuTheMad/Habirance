@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "habirance:russet_block"
+  },
+  "result": "habirance:chiseled_russet_block",
+  "count": 1
+}

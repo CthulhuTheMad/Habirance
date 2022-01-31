@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "habirance:redrock_block"
-  },
-  "result": "habirance:redrock_stairs",
-  "count": 1
-}

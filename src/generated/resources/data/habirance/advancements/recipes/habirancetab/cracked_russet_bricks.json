@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "habirance:cracked_russet_bricks"
+    ]
+  },
+  "criteria": {
+    "has_russet_bricks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "habirance:russet_bricks"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "habirance:cracked_russet_bricks"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_russet_bricks",
+      "has_the_recipe"
+    ]
+  ]
+}
