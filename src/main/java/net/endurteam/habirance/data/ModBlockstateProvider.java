@@ -49,6 +49,8 @@ public class ModBlockstateProvider extends BlockStateProvider {
         simpleBlock(ModBlocks.DRIED_IGNEOT_BLOCK.get());
         simpleBlock(ModBlocks.DRIED_IGNEOT_BRICKS.get());
         simpleBlock(ModBlocks.DRIED_CHISELED_IGNEOT_BRICKS.get());
+        simpleBlock(ModBlocks.TRAVERTINE_BLOCK.get());
+        simpleBlock(ModBlocks.POLISHED_TRAVERTINE_BLOCK.get());
 
         /**
          * Stair blockstates and models
@@ -71,6 +73,8 @@ public class ModBlockstateProvider extends BlockStateProvider {
         stairsBlock((StairBlock) ModBlocks.IGNEOT_BRICK_STAIRS.get(), modLoc("block/igneot_bricks"));
         stairsBlock((StairBlock) ModBlocks.DRIED_IGNEOT_STAIRS.get(), modLoc("block/dried_igneot_block"));
         stairsBlock((StairBlock) ModBlocks.DRIED_IGNEOT_BRICK_STAIRS.get(), modLoc("block/dried_igneot_bricks"));
+        stairsBlock((StairBlock) ModBlocks.TRAVERTINE_STAIRS.get(), modLoc("block/travertine_block"));
+        stairsBlock((StairBlock) ModBlocks.POLISHED_TRAVERTINE_STAIRS.get(), modLoc("block/polished_travertine_block"));
 
         /**
          * Slab blockstates and models
@@ -93,6 +97,8 @@ public class ModBlockstateProvider extends BlockStateProvider {
         slabBlock((SlabBlock) ModBlocks.IGNEOT_BRICK_SLAB.get(), modLoc("block/igneot_bricks"), modLoc("block/igneot_bricks"));
         slabBlock((SlabBlock) ModBlocks.DRIED_IGNEOT_SLAB.get(), modLoc("block/dried_igneot_block"), modLoc("block/dried_igneot_block"));
         slabBlock((SlabBlock) ModBlocks.DRIED_IGNEOT_BRICK_SLAB.get(), modLoc("block/dried_igneot_bricks"), modLoc("block/dried_igneot_bricks"));
+        slabBlock((SlabBlock) ModBlocks.TRAVERTINE_SLAB.get(), modLoc("block/travertine_block"), modLoc("block/travertine_block"));
+        slabBlock((SlabBlock) ModBlocks.POLISHED_TRAVERTINE_SLAB.get(), modLoc("block/polished_travertine_block"), modLoc("block/polished_travertine_block"));
 
         /**
          * Wall blockstates and models
@@ -109,6 +115,7 @@ public class ModBlockstateProvider extends BlockStateProvider {
         wallBlock((WallBlock) ModBlocks.IGNEOT_BRICK_WALL.get(), modLoc("block/igneot_bricks"));
         wallBlock((WallBlock) ModBlocks.DRIED_IGNEOT_WALL.get(), modLoc("block/dried_igneot_block"));
         wallBlock((WallBlock) ModBlocks.DRIED_IGNEOT_BRICK_WALL.get(), modLoc("block/dried_igneot_bricks"));
+        wallBlock((WallBlock) ModBlocks.TRAVERTINE_WALL.get(), modLoc("block/travertine_block"));
         models().wallInventory("alabaster_wall_inventory", modLoc("block/alabaster_block"));
         models().wallInventory("cobbled_slate_wall_inventory", modLoc("block/cobbled_slate_block"));
         models().wallInventory("cobblestone_brick_wall_inventory", modLoc("block/cobblestone_bricks"));
@@ -121,6 +128,7 @@ public class ModBlockstateProvider extends BlockStateProvider {
         models().wallInventory("igneot_brick_wall_inventory", modLoc("block/igneot_bricks"));
         models().wallInventory("dried_igneot_wall_inventory", modLoc("block/dried_igneot_block"));
         models().wallInventory("dried_igneot_brick_wall_inventory", modLoc("block/dried_igneot_bricks"));
+        models().wallInventory("travertine_wall_inventory", modLoc("block/travertine_block"));
     }
 
 

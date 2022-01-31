@@ -128,6 +128,17 @@ public class ModBlockLootTables extends BlockLoot {
         this.add(ModBlocks.DRIED_IGNEOT_BRICK_SLAB.get(), (block) -> {
             return createSlabItemTable(ModBlocks.DRIED_IGNEOT_BRICK_SLAB.get());
         });
+        this.dropSelf(ModBlocks.TRAVERTINE_BLOCK.get());
+        this.dropSelf(ModBlocks.TRAVERTINE_WALL.get());
+        this.dropSelf(ModBlocks.TRAVERTINE_STAIRS.get());
+        this.add(ModBlocks.TRAVERTINE_SLAB.get(), (block) -> {
+            return createSlabItemTable(ModBlocks.TRAVERTINE_SLAB.get());
+        });
+        this.dropSelf(ModBlocks.POLISHED_TRAVERTINE_BLOCK.get());
+        this.dropSelf(ModBlocks.POLISHED_TRAVERTINE_STAIRS.get());
+        this.add(ModBlocks.POLISHED_TRAVERTINE_SLAB.get(), (block) -> {
+            return createSlabItemTable(ModBlocks.POLISHED_TRAVERTINE_SLAB.get());
+        });
     }
 
     @Override

@@ -46,6 +46,8 @@ public class ModItemModelProvider extends ItemModelProvider {
         withExistingParent("dried_igneot_block", modLoc("block/dried_igneot_block"));
         withExistingParent("dried_igneot_bricks", modLoc("block/dried_igneot_bricks"));
         withExistingParent("dried_chiseled_igneot_bricks", modLoc("block/dried_chiseled_igneot_bricks"));
+        withExistingParent("travertine_block", modLoc("block/travertine_block"));
+        withExistingParent("polished_travertine_block", modLoc("block/polished_travertine_block"));
 
         /**
          * Stair block items
@@ -68,6 +70,8 @@ public class ModItemModelProvider extends ItemModelProvider {
         withExistingParent("igneot_brick_stairs", modLoc("block/igneot_brick_stairs"));
         withExistingParent("dried_igneot_stairs", modLoc("block/dried_igneot_stairs"));
         withExistingParent("dried_igneot_brick_stairs", modLoc("block/dried_igneot_brick_stairs"));
+        withExistingParent("travertine_stairs", modLoc("block/travertine_stairs"));
+        withExistingParent("polished_travertine_stairs", modLoc("block/polished_travertine_stairs"));
 
         /**
          * Slab Block Items
@@ -90,6 +94,8 @@ public class ModItemModelProvider extends ItemModelProvider {
         withExistingParent("igneot_brick_slab", modLoc("block/igneot_brick_slab"));
         withExistingParent("dried_igneot_slab", modLoc("block/dried_igneot_slab"));
         withExistingParent("dried_igneot_brick_slab", modLoc("block/dried_igneot_brick_slab"));
+        withExistingParent("travertine_slab", modLoc("block/travertine_slab"));
+        withExistingParent("polished_travertine_slab", modLoc("block/polished_travertine_slab"));
 
         /**
          * Wall Block Items
@@ -106,6 +112,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         withExistingParent("igneot_brick_wall", modLoc("block/igneot_brick_wall_inventory"));
         withExistingParent("dried_igneot_wall", modLoc("block/dried_igneot_wall_inventory"));
         withExistingParent("dried_igneot_brick_wall", modLoc("block/dried_igneot_brick_wall_inventory"));
+        withExistingParent("travertine_wall", modLoc("block/travertine_wall_inventory"));
 
         /**
          * How to generate basic item models

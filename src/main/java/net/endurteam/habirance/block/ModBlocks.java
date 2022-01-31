@@ -164,7 +164,7 @@ public class ModBlocks {
     public static final RegistryObject<Block> DRIED_IGNEOT_WALL = registerBlock("dried_igneot_wall",
             () -> new WallBlock(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(1.5F, 6.0F)), ModCreativeModeTab.HABIRANCE_TAB);
     public static final RegistryObject<Block> DRIED_IGNEOT_STAIRS = registerBlock("dried_igneot_stairs",
-            () -> new StairBlock(() -> ModBlocks.IGNEOT_BLOCK.get().defaultBlockState(), BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(1.5F, 6.0F)), ModCreativeModeTab.HABIRANCE_TAB);
+            () -> new StairBlock(() -> ModBlocks.DRIED_IGNEOT_BLOCK.get().defaultBlockState(), BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(1.5F, 6.0F)), ModCreativeModeTab.HABIRANCE_TAB);
     public static final RegistryObject<Block> DRIED_IGNEOT_SLAB = registerBlock("dried_igneot_slab",
             () -> new SlabBlock(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(1.5F, 6.0F)), ModCreativeModeTab.HABIRANCE_TAB);
     public static final RegistryObject<Block> DRIED_IGNEOT_BRICKS = registerBlock("dried_igneot_bricks",
@@ -177,6 +177,22 @@ public class ModBlocks {
             () -> new StairBlock(() -> ModBlocks.DRIED_IGNEOT_BRICKS.get().defaultBlockState(), BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(1.5F, 6.0F)), ModCreativeModeTab.HABIRANCE_TAB);
     public static final RegistryObject<Block> DRIED_IGNEOT_BRICK_SLAB = registerBlock("dried_igneot_brick_slab",
             () -> new SlabBlock(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(1.5F, 6.0F)), ModCreativeModeTab.HABIRANCE_TAB);
+    public static final RegistryObject<Block> TRAVERTINE_BLOCK = registerBlock("travertine_block",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(1.5F, 6.0F)), ModCreativeModeTab.HABIRANCE_TAB);
+    public static final RegistryObject<Block> TRAVERTINE_WALL = registerBlock("travertine_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(1.5F, 6.0F)), ModCreativeModeTab.HABIRANCE_TAB);
+    public static final RegistryObject<Block> TRAVERTINE_STAIRS = registerBlock("travertine_stairs",
+            () -> new StairBlock(() -> ModBlocks.TRAVERTINE_BLOCK.get().defaultBlockState(), BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(1.5F, 6.0F)), ModCreativeModeTab.HABIRANCE_TAB);
+    public static final RegistryObject<Block> TRAVERTINE_SLAB = registerBlock("travertine_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(1.5F, 6.0F)), ModCreativeModeTab.HABIRANCE_TAB);
+    public static final RegistryObject<Block> POLISHED_TRAVERTINE_BLOCK = registerBlock("polished_travertine_block",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(1.5F, 6.0F)), ModCreativeModeTab.HABIRANCE_TAB);
+    public static final RegistryObject<Block> POLISHED_TRAVERTINE_STAIRS = registerBlock("polished_travertine_stairs",
+            () -> new StairBlock(() -> ModBlocks.POLISHED_TRAVERTINE_BLOCK.get().defaultBlockState(), BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(1.5F, 6.0F)), ModCreativeModeTab.HABIRANCE_TAB);
+    public static final RegistryObject<Block> POLISHED_TRAVERTINE_SLAB = registerBlock("polished_travertine_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(1.5F, 6.0F)), ModCreativeModeTab.HABIRANCE_TAB);
+
+
 
 
     private static ToIntFunction<BlockState> litBlockEmission(int pLightValue) {

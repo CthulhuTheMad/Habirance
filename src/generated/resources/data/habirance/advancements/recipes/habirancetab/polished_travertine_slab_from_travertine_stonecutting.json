@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "habirance:polished_travertine_slab_from_travertine_stonecutting"
+    ]
+  },
+  "criteria": {
+    "has_travertine_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "habirance:travertine_block"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "habirance:polished_travertine_slab_from_travertine_stonecutting"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_travertine_block",
+      "has_the_recipe"
+    ]
+  ]
+}

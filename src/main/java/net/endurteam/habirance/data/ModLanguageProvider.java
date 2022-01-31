@@ -91,6 +91,13 @@ public class ModLanguageProvider extends LanguageProvider {
                 add("block.habirance.dried_igneot_brick_slab", "Dried Igneot Brick Slab");
                 add("block.habirance.dried_igneot_brick_wall", "Dried Igneot Brick Wall");
                 add("block.habirance.dried_chiseled_igneot_bricks", "Dried Chiseled Igneot Bricks");
+                add("block.habirance.travertine_block", "Travertine");
+                add("block.habirance.travertine_stairs", "Travertine Stairs");
+                add("block.habirance.travertine_slab", "Travertine Slab");
+                add("block.habirance.travertine_wall", "Travertine Wall");
+                add("block.habirance.polished_travertine_block", "Polished Travertine");
+                add("block.habirance.polished_travertine_stairs", "Polished Travertine Stairs");
+                add("block.habirance.polished_travertine_slab", "Polished Travertine Slab");
                 add("itemGroup.habirancetab", "Habirance");
                 break;
             default:

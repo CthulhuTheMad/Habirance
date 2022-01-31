@@ -57,6 +57,9 @@
   "block.habirance.polished_slate_block": "Polished Slate",
   "block.habirance.polished_slate_slab": "Polished Slate Slab",
   "block.habirance.polished_slate_stairs": "Polished Slate Stairs",
+  "block.habirance.polished_travertine_block": "Polished Travertine",
+  "block.habirance.polished_travertine_slab": "Polished Travertine Slab",
+  "block.habirance.polished_travertine_stairs": "Polished Travertine Stairs",
   "block.habirance.russet_block": "Russet",
   "block.habirance.russet_brick_slab": "Russet Brick Slab",
   "block.habirance.russet_brick_stairs": "Russet Brick Stairs",
@@ -74,6 +77,10 @@
   "block.habirance.slate_slab": "Slate Slab",
   "block.habirance.slate_stairs": "Slate Stairs",
   "block.habirance.slate_wall": "Slate Wall",
+  "block.habirance.travertine_block": "Travertine",
+  "block.habirance.travertine_slab": "Travertine Slab",
+  "block.habirance.travertine_stairs": "Travertine Stairs",
+  "block.habirance.travertine_wall": "Travertine Wall",
   "block.habirance.tuff_iron_ore": "Tuff Iron Ore",
   "itemGroup.habirancetab": "Habirance"
 }
