@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=top": {
+      "model": "habirance:block/dried_igneot_brick_slab_top"
+    },
+    "type=bottom": {
+      "model": "habirance:block/dried_igneot_brick_slab"
+    },
+    "type=double": {
+      "model": "habirance:block/dried_igneot_bricks"
+    }
+  }
+}

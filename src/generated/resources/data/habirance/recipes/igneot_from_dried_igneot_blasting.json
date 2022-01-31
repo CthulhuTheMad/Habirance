@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "habirance:dried_igneot_block"
+  },
+  "result": "habirance:igneot_block",
+  "experience": 0.1,
+  "cookingtime": 100
+}

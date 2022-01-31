@@ -101,7 +101,7 @@ public class ModBlockLootTables extends BlockLoot {
             return createSlabItemTable(ModBlocks.POLISHED_COBBLESTONE_SLAB.get());
         });
         this.add(ModBlocks.IGNEOT_BLOCK.get(), (p_124195_) -> {
-            return createSingleItemTableWithSilkTouch(p_124195_, ModBlocks.COBBLED_IGNEOT_BLOCK.get());
+            return createSingleItemTableWithSilkTouch(p_124195_, ModBlocks.DRIED_IGNEOT_BLOCK.get());
         });
         this.dropSelf(ModBlocks.IGNEOT_WALL.get());
         this.dropSelf(ModBlocks.IGNEOT_STAIRS.get());
@@ -115,18 +115,18 @@ public class ModBlockLootTables extends BlockLoot {
             return createSlabItemTable(ModBlocks.IGNEOT_BRICK_SLAB.get());
         });
         this.dropSelf(ModBlocks.CHISELED_IGNEOT_BRICKS.get());
-        this.dropSelf(ModBlocks.COBBLED_IGNEOT_BLOCK.get());
-        this.dropSelf(ModBlocks.COBBLED_IGNEOT_WALL.get());
-        this.dropSelf(ModBlocks.COBBLED_IGNEOT_STAIRS.get());
-        this.add(ModBlocks.COBBLED_IGNEOT_SLAB.get(), (block) -> {
-            return createSlabItemTable(ModBlocks.COBBLED_IGNEOT_SLAB.get());
+        this.dropSelf(ModBlocks.DRIED_IGNEOT_BLOCK.get());
+        this.dropSelf(ModBlocks.DRIED_IGNEOT_WALL.get());
+        this.dropSelf(ModBlocks.DRIED_IGNEOT_STAIRS.get());
+        this.add(ModBlocks.DRIED_IGNEOT_SLAB.get(), (block) -> {
+            return createSlabItemTable(ModBlocks.DRIED_IGNEOT_SLAB.get());
         });
-        this.dropSelf(ModBlocks.COBBLED_IGNEOT_BRICKS.get());
-        this.dropSelf(ModBlocks.COBBLED_CHISELED_IGNEOT_BRICKS.get());
-        this.dropSelf(ModBlocks.COBBLED_IGNEOT_BRICK_WALL.get());
-        this.dropSelf(ModBlocks.COBBLED_IGNEOT_BRICK_STAIRS.get());
-        this.add(ModBlocks.COBBLED_IGNEOT_BRICK_SLAB.get(), (block) -> {
-            return createSlabItemTable(ModBlocks.COBBLED_IGNEOT_BRICK_SLAB.get());
+        this.dropSelf(ModBlocks.DRIED_IGNEOT_BRICKS.get());
+        this.dropSelf(ModBlocks.DRIED_CHISELED_IGNEOT_BRICKS.get());
+        this.dropSelf(ModBlocks.DRIED_IGNEOT_BRICK_WALL.get());
+        this.dropSelf(ModBlocks.DRIED_IGNEOT_BRICK_STAIRS.get());
+        this.add(ModBlocks.DRIED_IGNEOT_BRICK_SLAB.get(), (block) -> {
+            return createSlabItemTable(ModBlocks.DRIED_IGNEOT_BRICK_SLAB.get());
         });
     }
 

@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "habirance:cobbled_igneot_block"
-  },
-  "result": "habirance:cobbled_igneot_wall",
-  "count": 1
-}

@@ -34,7 +34,7 @@
                   "condition": "minecraft:survives_explosion"
                 }
               ],
-              "name": "habirance:cobbled_igneot_block"
+              "name": "habirance:dried_igneot_block"
             }
           ]
         }

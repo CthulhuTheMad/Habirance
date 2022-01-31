@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "habirance:dried_igneot_brick_wall_from_dried_igneot_brick_stonecutting"
+    ]
+  },
+  "criteria": {
+    "has_dried_igneot_bricks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "habirance:dried_igneot_bricks"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "habirance:dried_igneot_brick_wall_from_dried_igneot_brick_stonecutting"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_dried_igneot_bricks",
+      "has_the_recipe"
+    ]
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "habirance:dried_igneot_block"
+  },
+  "result": "habirance:dried_igneot_brick_stairs",
+  "count": 1
+}

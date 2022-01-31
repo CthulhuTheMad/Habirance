@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "habirance:cobbled_igneot_bricks"
-  },
-  "result": "habirance:cobbled_igneot_brick_stairs",
-  "count": 1
-}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "habirance:dried_igneot_block"
+    }
+  },
+  "result": {
+    "item": "habirance:dried_igneot_stairs",
+    "count": 4
+  }
+}

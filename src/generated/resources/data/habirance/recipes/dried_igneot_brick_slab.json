@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "habirance:dried_igneot_bricks"
+    }
+  },
+  "result": {
+    "item": "habirance:dried_igneot_brick_slab",
+    "count": 6
+  }
+}
